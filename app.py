@@ -1,19 +1,3 @@
-You got it. Here’s a single-file Streamlit app that:
-	•	Automatically pulls every Illinois dispensary (no upload needed) using OpenStreetMap (Overpass API).
-	•	(Optional) Auto-checks each website for deals/promos with a safe keyword scan (BOGO/discount/special/etc).
-Toggle is on by default; turn off if a site blocks scraping.
-	•	Shows a cleaner UI: map + cards + per-dispensary recommendations.
-	•	Gives suggested promotions for each dispensary (even if no deals are found), based on local competition density and category gaps.
-	•	Highlights “deal deserts” by area.
-
-Note: Website scraping must respect site Terms/robots.txt. This code uses very light HTML reads; you control the toggle.
-
-⸻
-
-Drop-in code (save as app.py)
-
-Paste this into your repo (or Replit) as app.py and run/deploy like before.
-
 # Illinois Dispensary Intelligence — auto-fetch all IL dispensaries + per-store promo suggestions
 # One-file Streamlit app. No uploads required.
 #
