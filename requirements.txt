@@ -1,5 +1,6 @@
 streamlit
 pandas
 numpy
+requests
 folium
 streamlit-folium
